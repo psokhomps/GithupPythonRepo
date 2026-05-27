@@ -1,5 +1,6 @@
-age=int(input("Enter your age: "))
-if age >= 17:
-    print("adult")
+from datetime import datetime
+current_hour=datetime.now().hour
+if 8 <= current_hour < 17:
+	print("store is open")
 else:
-    print("tenager")
+	print("store is close")
