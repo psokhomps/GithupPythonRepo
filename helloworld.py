@@ -1,2 +1,3 @@
 #prints hello world
-print("show me Python")
+response = input("Enter something: ")
+print(response)
